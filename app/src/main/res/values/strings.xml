@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="homepage_title">Application Information</string>
+    <string name="homepage_info">This app was created by Elad Moalem and Omer Faclieru as part of the applications development at Emek Yizrael College</string>
+    <string name="homepage_button">Back to HomePage</string>
+
+    <string name="events_info_title">Events Information</string>
+    <string name="my_events_title">My Events</string>
+    <string name="approved_events_title">Approved Events</string>
+    <string name="declined_events_title">Declined Events</string>
+    <string name="title_app">Events Application</string>
+    <string name="login">Login</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="event_description">Event Description</string>
+    <string name="event_type">Event Type</string>
+    <string name="risk_level">Risk Level</string>
+    <string name="event_location">Event Location</string>
+    <string name="region">Region</string>
+    <string name="disapprove">Disapprove</string>
+    <string name="approve">Approve</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="location_hint">Location</string>
+    <string name="description_hint">Description</string>
+    <string name="take_photo_button_text">TAKE A PHOTO</string>
+    <string name="add_event_button_text">Add Event</string>
+    <string name="events_information">Events Information</string>
+    <string name="filter_by_date">Filter By Date</string>
+    <string name="from_old_to_new">From Old To New</string>
+    <string name="from_new_to_old">From New To Old</string>
+    <string name="sort_by">Sort by</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="register">Register</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="user_name">Username</string>
+    <string name="Show_Comments">Show Comments</string>
+    <string name="Hide_Comments">Hide Comments</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="comment">Comment</string>
+
+
+    <array name="risk_levels">
+        <item>Choose Risk Level</item>
+        <item>Low Risk</item>
+        <item>Medium Risk</item>
+        <item>High Risk</item>
+    </array>
+
+    <array name="event_type">
+        <item>Choose Event Type</item>
+        <item>Health</item>
+        <item>Environment</item>
+        <item>Terrorism</item>
+        <item>Other</item>
+    </array>
+
+
+    <array name="event_region">
+        <item>Choose Region</item>
+        <item>North District</item>
+        <item>Haifa District</item>
+        <item>Central District</item>
+        <item>Tel-Aviv District</item>
+        <item>Jerusalem District</item>
+        <item>South District</item>
+    </array>
+
+</resources>
+

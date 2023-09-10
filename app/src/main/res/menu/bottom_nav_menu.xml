@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/HomePage"
+        android:title="HomePage"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item android:id="@+id/my_events"
+        android:title="My Events"
+        android:icon="@drawable/baseline_event_note"/>
+
+    <item android:id="@+id/users_reports"
+        android:title="Users Reports"
+        android:icon="@drawable/baseline_supervised_user_circle_24"/>
+
+    <item android:id="@+id/add_event"
+        android:title="Add Event"
+        android:icon="@drawable/baseline_add_card_24"/>
+
+
+</menu>
