@@ -12,22 +12,22 @@ Android Studio application for reporting events
 
 ## Login Page
 
-<img src="app/src/main/res/images/login.jpg" alt="Login Page" width="50%"/>
+<img src="app/src/main/res/images/login.jpg" alt="Login Page" width="30%"/>
 
 ## Register Page
 
-<img src="app/src/main/res/images/register.jpg" alt="Register Page" width="50%"/>
+<img src="app/src/main/res/images/register.jpg" alt="Register Page" width="30%"/>
 
 ## Add new Event
 
-<img src="app/src/main/res/images/AddEvent.gif" alt="Add new Event" width="50%"/>
+<img src="app/src/main/res/images/AddEvent.gif" alt="Add new Event" width="30%"/>
 
 ## HomePage
 
 ### User with his events
 
-<img src="app/src/main/res/images/HomePage.jpg" alt="User with his events" width="50%"/>
+<img src="app/src/main/res/images/HomePage.jpg" alt="User with his events" width="30%"/>
 
 ### Other user's HomePage
 
-<img src="app/src/main/res/images/OtherUsersHomePage.gif" alt="Other user's HomePage" width="50%"/>
+<img src="app/src/main/res/images/OtherUsersHomePage.gif" alt="Other user's HomePage" width="30%"/>
