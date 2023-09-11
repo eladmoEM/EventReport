@@ -29,5 +29,6 @@ Android Studio application for reporting events
 <img src="app/src/main/res/images/HomePage.jpg" alt="User with his events" width="30%"/>
 
 ### Other user's HomePage
+#### Other users can approve/disapprove event and add comments
 
 <img src="app/src/main/res/images/OtherUsersHomePage.gif" alt="Other user's HomePage" width="30%"/>
