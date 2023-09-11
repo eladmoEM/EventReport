@@ -4,7 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="homepage_title">Application Information</string>
-    <string name="homepage_info">This app was created by Elad Moalem and Omer Faclieru as part of the applications development at Emek Yizrael College</string>
+    <string name="homepage_info">This app was created by Elad Moalem as part of the applications development at Emek Yizrael College</string>
     <string name="homepage_button">Back to HomePage</string>
 
     <string name="events_info_title">Events Information</string>

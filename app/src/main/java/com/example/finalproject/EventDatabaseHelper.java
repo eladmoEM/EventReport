@@ -186,7 +186,7 @@ public class EventDatabaseHelper extends SQLiteOpenHelper {
             String documentId = UUID.randomUUID().toString();
             values.put(COLUMN_DOCUMENT_ID, documentId);
             // Get current user ID from SharedPrefManager
-            SharedPrefManager sharedPrefManager = SharedPrefManager.getInstance(context); // replace 'context' with your current context
+            SharedPrefManager sharedPrefManager = SharedPrefManager.getInstance(context);
 
             String currentUserId = sharedPrefManager.getLoggedInUserId();
 

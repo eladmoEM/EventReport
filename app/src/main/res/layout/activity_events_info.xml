@@ -15,7 +15,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_marginTop="50dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:fontFamily="sans-serif-thin"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -28,7 +28,7 @@
         android:text="@string/my_events_title"
         android:textSize="30sp"
         android:layout_below="@id/titleEventsInformation"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:drawableLeft="@drawable/baseline_event_note"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
@@ -40,7 +40,7 @@
         android:text="0"
         android:textSize="24sp"
         android:layout_below="@id/titleMyEvents"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 
@@ -52,7 +52,7 @@
         android:text="@string/approved_events_title"
         android:textSize="30sp"
         android:layout_below="@id/numEvents"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:drawableLeft="@drawable/baseline_event_available_24"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
@@ -64,7 +64,7 @@
         android:text="0"
         android:textSize="24sp"
         android:layout_below="@id/approve_events"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 
@@ -77,7 +77,7 @@
         android:text="@string/declined_events_title"
         android:textSize="30sp"
         android:layout_below="@id/numApprove"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:drawableLeft="@drawable/baseline_event_busy_24"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
@@ -89,7 +89,7 @@
         android:text="0"
         android:textSize="24sp"
         android:layout_below="@id/decline_events"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 

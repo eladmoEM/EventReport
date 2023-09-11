@@ -89,10 +89,14 @@ public class HomePageAdapter extends RecyclerView.Adapter<HomePageAdapter.ViewHo
         SharedPrefManager sharedPrefManager = SharedPrefManager.getInstance(context);
         this.userId = sharedPrefManager.getLoggedInUserId();
 
-        Log.d("HomePageAdapter", "Logged-in user ID: " + userId);
-        Log.d("HomePageAdapter", "Event Creator Id: " + event.getUserId());
+        String eventCreatorId = sharedPrefManager.getEventCreatorId();
+        Log.d("HomePageAdapter", "Stored Event Creator Id: " + eventCreatorId);
 
-        boolean createdByLogged = eventUserId != null && event.getUserId().equals(userId);
+
+        Log.d("HomePageAdapter", "Logged-in user ID: " + userId);
+
+
+        boolean createdByLogged = userId.equals(eventCreatorId);
 
 
         List<String> comments = new ArrayList<>();

@@ -18,7 +18,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="@string/login"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="35dp"
         android:textStyle="bold" />
 
@@ -31,12 +31,13 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:background="#30ffffff"
+        android:background="@drawable/edittext_border"
         android:drawableLeft="@drawable/baseline_supervised_user_circle_24"
         android:hint="@string/enter_user_name"
         android:padding="10dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
 
 
     <EditText
@@ -48,24 +49,26 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:background="#30ffffff"
+        android:background="@drawable/edittext_border"
         android:drawableLeft="@drawable/baseline_lock_24"
         android:hint="@string/enter_password"
         android:padding="10dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cornerRadius="0dp"
         android:layout_below="@+id/user_password"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="60dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="60dp"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/black"
         android:text="@string/login"
         android:textStyle="bold" />
 
@@ -73,15 +76,12 @@
         android:id="@+id/register_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        app:cornerRadius="0dp"
         android:layout_below="@+id/login_btn"
-        android:layout_alignStart="@+id/login_btn"
-        android:layout_alignEnd="@+id/login_btn"
-        android:layout_marginStart="-60dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginEnd="-60dp"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="@color/blue"
         android:text="@string/register"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
 

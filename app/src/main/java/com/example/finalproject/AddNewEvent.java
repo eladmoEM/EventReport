@@ -73,7 +73,7 @@ public class AddNewEvent extends Fragment {
             if (isFormValid()) {
                 moveToNextPage();
             } else {
-                Toast.makeText(requireContext(), "Please fill in all fields.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext(), "Please fill up all the fields.", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -167,21 +167,26 @@ public class AddNewEvent extends Fragment {
 
         if (eventAdded) {
             Toast.makeText(requireContext(), "Event added successfully", Toast.LENGTH_SHORT).show();
+
+            // Save the event's userId to SharedPreferences here
+            sharedPrefManager.saveEventCreatorId(event.getUserId());
+
             // Pass the eventUserId back to the activity
             ((OnEventUserIdListener) requireActivity()).onEventUserIdReceived(event.getUserId());
+
             // Start the homepage activity
             Intent intent = new Intent(requireContext(), HomePage.class);
             intent.putExtra("eventUserId", event.getUserId());
             startActivity(intent);
 
-
-
             // Finish the current activity
             requireActivity().finish();
+
             Log.d("HomePageAdapter", "UserId: " + currentUserId + ", Event Creator Id: " + event.getUserId());
         } else {
             Toast.makeText(requireContext(), "Event already exists", Toast.LENGTH_SHORT).show();
         }
+
     }
 
 

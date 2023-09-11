@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/background"
+    android:background="@color/light_blue"
     android:padding="16dp">
 
     <TextView
@@ -14,7 +14,7 @@
         android:fontFamily="sans-serif-thin"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textAppearance="?android:textAppearanceMedium" />
 
     <RelativeLayout
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="@color/blue"
             android:fontFamily="sans-serif-thin"
             android:textStyle="bold"
             android:layout_alignParentEnd="true"
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="@color/blue"
             android:fontFamily="sans-serif-thin"
             android:textStyle="bold"
             android:textColor="@color/white"

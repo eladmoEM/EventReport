@@ -23,8 +23,10 @@
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
         android:layout_gravity="center"
         android:hint="@string/user_name"
+        android:textColor="@color/black"
         android:inputType="text"/>
 
 
@@ -33,6 +35,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:hint="@string/Email"
         android:inputType="text"/>
 
@@ -42,6 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:hint="@string/Password"
         android:inputType="textPassword"/>
 
@@ -52,6 +58,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:hint="@string/Confirm_Password"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:inputType="textPassword"/>
 
     <Button
@@ -60,6 +68,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/register"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:layout_gravity="center"/>
 
 </LinearLayout>
